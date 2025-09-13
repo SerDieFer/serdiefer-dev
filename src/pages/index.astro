@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/portfolio/Header.tsx';
+import Hero from '../components/portfolio/Hero.tsx';
+import Projects from '../components/portfolio/Projects.tsx';
+import { portfolioData } from '../data/portfolio';
+---
+
+<Layout title={`${portfolioData.name} - Portfolio`}>
+  <Header client:load />
+  <Hero client:load />
+  <Projects client:load />
+</Layout>
