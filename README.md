@@ -1,29 +1,35 @@
-# Astro Starter Kit: Minimal
+# SerDieFer Portfolio
 
-```sh
-bun create astro@latest -- --template minimal
-```
+My personal portfolio website showcasing my projects, skills, and professional journey as a developer.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🌟 About
+
+This portfolio website serves as a comprehensive showcase of:
+- **Projects**: A curated collection of my development work
+- **Skills**: Technical expertise and competencies
+- **About Me**: Professional background and personal journey
+- **Contact**: Ways to connect and collaborate
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Astro](https://astro.build/) - Static site generation with optimal performance
+- **UI Framework**: [React](https://react.dev/) - Component-based user interfaces
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com/) - Beautiful and accessible components
+- **Package Manager**: [Bun](https://bun.sh/) - Fast JavaScript runtime and package manager
+- **Styling**: Tailwind CSS (via shadcn/ui)
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
-
 ```text
 /
-├── public/
+├── public/              # Static assets (images, icons, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/      # React components and UI elements
+│   ├── layouts/         # Astro layout components
+│   ├── pages/           # Site pages and routes
+│   └── styles/          # Global styles and themes
 └── package.json
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
 
 ## 🧞 Commands
 
